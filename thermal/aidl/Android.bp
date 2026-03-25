@@ -23,6 +23,7 @@ package {
 
 aidl_interface {
     name: "android.hardware.thermal",
+    owner: "vendor",
     vendor_available: true,
     srcs: [
         "android/hardware/thermal/*.aidl",
